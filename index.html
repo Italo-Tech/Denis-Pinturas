@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!--FontAwesome-->
+    <script defer src="./node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="./node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Raleway:400,200' rel='stylesheet' type='text/css'>
+
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <script>document.documentElement.classList.add("js");</script>
+    <title>Title</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar navbar-expand-lg shadow" data-anime="400" style="background: white">
+    <div class="container">
+        <div class="d-flex justify-content-start">
+            <a class="navbar-brand font-weight-bold" href="#">
+                <img style="height: 80px" src="./img/denisLogo.png" alt="logo">
+            </a>
+        </div>
+
+        <!--Menu Hamburguer-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="col-lg-6 collapse navbar-collapse" id="navbarNav">
+            <!--Opções de Navegação-->
+            <ul class="navbar-nav d-flex">
+                <li class="nav-item active mr-sm-3">
+                    <a class="nav-link js-menu" href="#servicos">SERVIÇOS</a>
+                </li>
+                <li class="nav-item mr-sm-3">
+                    <a class="nav-link js-menu" href="#sobre">SOBRE</a>
+                </li>
+                <li class="nav-item-li">
+                    <a class="nav-link js-menu" href="#contato">CONTATO</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!-- Full Page Intro -->
+<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/93.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <div class="mask rgba-black-light d-flex align-items-center" style="justify-content: center!important; align-items: center; height: 100vh">
+        <!-- Content -->
+        <div class="text-center white-text mx-5 wow fadeIn">
+            <div style="color: white;">
+                <span data-anime="400" class="fadeInDown h1" style="color: white"> Sua reforma em boas mãos</span>
+                <div data-anime="800" class="fadeInDown">
+                    <p class="h4">Trabalhamos com os melhores materiais do mercado para sua reforma e construção</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Services-->
+<section id="servicos" style="padding: 60px 0;" data-anime="1600">
+    <div>
+        <h2 class="subtitulo">Serviços</h2>
+    </div>
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <!--PINTURA PREDIAL-->
+            <div class="col-12 col-md-4 col-lg-3 pt-4 pt-sm-0">
+                <div class="produtos_icone d-flex justify-content-center">
+                    <img src="./img/servicos/pintura-predial.png" alt="Pinturas em Geral">
+                </div>
+                <div class="service-description">
+                    <span class="title-services">Pintura Predial</span>
+                    <p class="text-service">Pintura residencial, predial e industrial, profissionais treinados, uniformizados. Usamos equipamentos modernos para assegurar a total satisfação e excelência no seu Prédio. Equipamentos Revisados. Visita Sem Compromisso.</p>
+                </div>
+            </div>
+
+            <!--GRAFIATO-->
+            <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0 pt-4 pt-sm-0">
+                <div class="produtos_icone d-flex justify-content-center">
+                    <img src="img/servicos/grafiato.jpg" alt="Grafiatos">
+                </div>
+                <div class="service-description">
+                    <span class="title-services">GRAFIATOS</span>
+                    <p class="text-service">Incorpore na decoração da sua casa uma parede ou muro de grafiato e deixe sua casa mais aconchegante.</p>
+                </div>
+            </div>
+
+            <!--FORROS-->
+            <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0 pt-4 pt-sm-0">
+                <div class="produtos_icone d-flex justify-content-center">
+                    <img src="./img/servicos/forro.jpg" alt="Forros em Geral">
+                </div>
+                <div class="service-description">
+                    <span class="title-services">FORROS EM GERAL</span>
+                    <p> class="text-service" Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <!--LAVAGEM DE VIDROS-->
+            <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0 pt-4 pt-sm-0">
+                <div class="produtos_icone d-flex justify-content-center">
+                    <img src="./img/servicos/vidros_lavagem.jpg" alt="Lavagem de Vidros">
+                </div>
+                <div class="service-description">
+                    <span class="title-services">LAVAGEM DE VIDROS</span>
+                    <p> class="text-service" Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
+                </div>
+            </div>
+
+            <!--LAQUEAÇÃO-->
+            <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0 pt-4 pt-sm-0">
+                <div class="produtos_icone d-flex justify-content-center">
+                    <img src="./img/servicos/vidros_lavagem.jpg" alt="Laqueação">
+                </div>
+                <div class="service-description">
+                    <span class="title-services">LAQUEAÇÃO RESTAURAÇÃO</span>
+                    <p> class="text-service" Ainda assim, existem dúvidas a respeito de como a necessidade de renovação.</p>
+                </div>
+            </div>
+
+            <!--DIVISÓRIAS DE DRYWALL-->
+            <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0 pt-4 pt-sm-0">
+                <div class="produtos_icone d-flex justify-content-center">
+                    <img src="./img/servicos/divisoria-drywall-5-.jpg" alt="Divisórias de Drywall">
+                </div>
+                <div class="service-description">
+                    <span class="title-services">DIVISÓRIAS DE DRYWALL</span>
+                    <p class="text-service">Modernidade e eficiência para seu ambiente</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--About-->
+<section class="about" id="sobre">
+    <h2 class="subtitulo">Sobre</h2>
+    <section class="col-12 px-sm-5 mx-sm-5 justify-content-center d-flex flex-lg-column flex-wrap">
+
+        <!--Missao-->
+        <div class="row px-4 card-transition-missao-valores">
+            <div class="col-md-6 bg-card p-3 d-flex flex-column shadow">
+                <span class="subtitulo-interno">Missao</span>
+                <span>Lorem Ipsum is simply ummy text of the ummy text o the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</span>
+            </div>
+        </div>
+        <br/>
+
+        <!--Visao-->
+        <div class="row px-4 card-transition-visao flex-lg-row-reverse">
+            <div class="col-md-6 bg-card p-3 d-flex flex-column shadow">
+                <span class="subtitulo-interno">Visao</span>
+                <span>Lorem Ipsum is simply ummy text of the ummy text o the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</span>
+            </div>
+        </div>
+        <br/>
+
+        <!--Valores-->
+        <div class="row px-4 card-transition-missao-valores">
+            <div class="col-md-6 bg-card p-3 d-flex flex-column shadow">
+                <span class="subtitulo-interno">Valores</span>
+                <span>Lorem Ipsum is simply ummy text of the ummy text o the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</span>
+            </div>
+        </div>
+    </section>
+</section>
+
+<footer class="d-flex flex-column align-items-center mt-5" id="contato">
+    <h2 class="subtitulo">Contato</h2>
+
+    <div class="col-12 d-flex pb-5 justify-content-center flex-column flex-md-row">
+        <!--1ºCOL-->
+        <div class="col-12 col-md-4 px-5 py-3 shadow">
+            <div class="p-4">
+                <span class="subtitulo-interno">INFORMAÇÕES DA EMPRESA</span>
+            </div>
+
+            <div class="informacoes px-3" style="font-family: tahoma">
+                <div class="p-2">
+                    <span class="h6"><strong>EMAIL:</strong> denis.sousafeitosa@hotmail.com</span>
+                </div>
+
+                <div class="p-2">
+                    <span class="h6"><strong>TELEFONE:</strong> 11 95906-2579 - 93366-9542</span>
+                </div>
+
+                <div class="p-2">
+                    <span class="h6"><strong>ENDEREÇO:</strong> Rua Castro Lopes 314 CEP 04945-200</span>
+                </div>
+                <div class="p-2">
+                    <span class="h6"><strong>CNPJ:</strong> 28.708.617/0001-85</span>
+                </div>
+
+                <div class="p-2 py-5 footer_redes">
+                    <h3 class="subtitulo-interno" style="font-family: Arial, Helvetica, sans-serif">Acesse</h3>
+                    <ul>
+                        <!--Facebook-->
+                        <li class="icon-hover" style="font-size: 2rem">
+                            <a href="https://pt-br.facebook.com/denispinturasemgeral.com.br/" target="_blank"><span class="fab fa-facebook"></span></a>
+                        </li>
+                        <!--Instagram-->
+                        <li class="icon-hover" style="font-size: 2rem">
+                            <a href="https://www.instagram.com/denispinturasemgeral/" target="_blank"><span class="fab fa-instagram"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-5 py-3 py-sm-3"></div>
+
+        <!--2ºCOL-->
+        <div class="col-12 col-md-4 shadow">
+            <div class="py-4 pl-4">
+                <span class="subtitulo-interno">CONTATO COM A EMPRESA</span>
+            </div>
+            <form class="px-4" enctype="text/plain" method="post" action="mailto: italosantosdick@uni9.edu.br">
+                <div class="form-group">
+                    <label for="inputName">Nome</label>
+                    <input class="form-control" type="text" id="inputName" aria-describedby="emailHelp" placeholder="Nome e sobrenome">
+       k         </div>
+                <div class="row">
+                    <div class="form-group col-6">
+                        <label for="inputEmail">E-mail</label>
+                        <input class="form-control" type="email" id="inputEmail" placeholder="Ex: fulano@hotmail.com">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="inputTelefone">Telefonee</label>
+                        <input class="form-control" type="text" id="inputTelefone" placeholder="Ex: (11)95555-5555">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="textareaMensagem">Mensagemm</label>
+                    <textarea class="form-control" id="textareaMensagem" rows="5" placeholder="Informe sua mensagem"></textarea>
+                </div>
+
+                <button  class="btn btn-outline-default" type="submit" id="enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="copy">
+        <div class="container">
+            <p class="grid-16">Denis Pinturas 2021 - Alguns direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./js/simple-anime.js"></script>
+<script src="./js/script.js"></script>
+<script src="src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'"></script>
+
+<script src="https://cdn.widzap.com/v2/js/types/1/commun.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+<!--<script src="./js/main.js"></script>-->
+<script src="./js/bootstrap.min.js"></script>
+
+<!--Widzap-->
+<script>
+    var options = {
+        whatsapp: "5511959062579",
+        position: "right",
+        type: 1,
+        title: "Fale conosco pelo WhatsApp!",
+        text: "Nossa equipe está esperando seu contato. Inicie uma conversa abaixo.",
+        primary: "#56cbab",
+        secundary: "#00d2b5",
+        title_color: "#000000",
+        text_color: "#606060"
+    };
+    iniWidZap();
+
+    /*Scroll Suave Link Interno*/
+    const linksInternos = document.querySelectorAll('a[href^="#"]')
+    function scrollToSection(event) {
+        event.preventDefault();
+        const href = event.currentTarget.getAttribute('href');
+        const section = document.querySelector(href)
+        console.log(section.offsetTop)
+        const topo = section.offsetTop-106
+
+        window.scrollTo({
+            top: topo,
+            behavior: 'smooth'
+        })
+    }
+    linksInternos.forEach((link) => {
+        link.addEventListener('click', scrollToSection)
+    })
+
+</script>
+</body>
+</html>
