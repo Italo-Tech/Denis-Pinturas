@@ -25,19 +25,23 @@
 </head>
 <body>
 
-<!-- Navbar -->
-<header class="navbar navbar-expand-lg shadow" data-anime="400" style="background: white">
+<!--NAVBAR-->
+<header class="navbar navbar-expand-sm fixed-top navbar-dark shadow header">
     <div class="container">
-        <div class="d-flex justify-content-start">
-            <a class="navbar-brand font-weight-bold" href="#">
-                <img style="height: 80px" src="./img/denisLogo.png" alt="logo">
-            </a>
-        </div>
+        <div class="d-flex col-12 col-sm-2 justify-content-between justify-content-sm-start">
+            <div>
+                <a class="navbar-brand font-weight-bold" href="#">
+                    <img style="height: 80px" src="./img/denisLogo.png" alt="logo">
+                </a>
+            </div>
 
-        <!--Menu Hamburguer-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!--Menu Hamburguer-->
+            <div class="align-self-center">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
 
         <!-- Links -->
         <div class="col-lg-6 collapse navbar-collapse" id="navbarNav">
@@ -57,7 +61,7 @@
     </div>
 </header>
 
-<!-- Full Page Intro -->
+<!--FULL PAGE INTRO-->
 <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/93.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="mask rgba-black-light d-flex align-items-center" style="justify-content: center!important; align-items: center; height: 100vh">
         <!-- Content -->
@@ -72,7 +76,7 @@
     </div>
 </div>
 
-<!--Services-->
+<!--SERVICES-->
 <section id="servicos" style="padding: 60px 0;" data-anime="1600">
     <div>
         <h2 class="subtitulo">Serviços</h2>
@@ -151,40 +155,44 @@
 
 </section>
 
-<!--About-->
+<!--ABOUT-->
 <section class="about" id="sobre">
     <h2 class="subtitulo">Sobre</h2>
     <section class="col-12 px-sm-5 mx-sm-5 justify-content-center d-flex flex-lg-column flex-wrap">
 
         <!--Missao-->
-        <div class="row px-4 card-transition-missao-valores">
-            <div class="col-md-6 bg-card p-3 d-flex flex-column shadow">
+        <div class="row d-flex px-4 card-transition-missao-valores">
+            <div class="col-md-8 bg-card p-3 d-flex flex-column shadow">
                 <span class="subtitulo-interno">Missao</span>
-                <span>Lorem Ipsum is simply ummy text of the ummy text o the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</span>
+                <span>A Denis Pinturas em Geral dentro da sua área de atuação, tem por missão trazer soluções práticas e inteligentes, com pontualidade, qualidade, confiabilidade e segurança, customizadas para seus clientes, adequadas ao tamanho e aos objetivos de curto, médio e longo prazo de cada projeto.</span>
             </div>
         </div>
         <br/>
 
         <!--Visao-->
-        <div class="row px-4 card-transition-visao flex-lg-row-reverse">
-            <div class="col-md-6 bg-card p-3 d-flex flex-column shadow">
+        <div class="row d-flex px-4 card-transition-visao flex-lg-row-reverse">
+            <div class="col-md-8 bg-card p-3 d-flex flex-column shadow">
                 <span class="subtitulo-interno">Visao</span>
-                <span>Lorem Ipsum is simply ummy text of the ummy text o the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</span>
+                <span>Nossa equipe visa trazer o que há de melhor em produtos para atender os mais padrões de serviços, dos aspectos de Segurança e Meio Ambiente, tomamos o máximo de cuidados com os materiais que serão descartado.
+De forma adequamos nossos serviços à realidade de nossos clientes, tudo isso com um investimento mensal reduzido conforme condições contratadas.</span>
             </div>
         </div>
         <br/>
 
         <!--Valores-->
-        <div class="row px-4 card-transition-missao-valores">
-            <div class="col-md-6 bg-card p-3 d-flex flex-column shadow">
+        <div class="row d-flex px-4 card-transition-missao-valores">
+            <div class="col-md-8 bg-card p-3 d-flex flex-column shadow">
                 <span class="subtitulo-interno">Valores</span>
-                <span>Lorem Ipsum is simply ummy text of the ummy text o the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</span>
+                <span>Ética, Transparência, Efetividade, Segurança e Competência</span>
+                <br/>
+                <span>Nós prezamos muito pela satisfação de nossos clientes, pois nosso ramo é oferecer conforto e segurança.</span>
             </div>
         </div>
     </section>
 </section>
 
-<footer class="d-flex flex-column align-items-center mt-5" id="contato">
+<!--CONTACT-->
+<section class="d-flex flex-column align-items-center mt-5" id="contato">
     <h2 class="subtitulo">Contato</h2>
 
     <div class="col-12 d-flex pb-5 justify-content-center flex-column flex-md-row">
@@ -209,27 +217,13 @@
                 <div class="p-2">
                     <span class="h6"><strong>CNPJ:</strong> 28.708.617/0001-85</span>
                 </div>
-
-                <div class="p-2 py-5 footer_redes">
-                    <h3 class="subtitulo-interno" style="font-family: Arial, Helvetica, sans-serif">Acesse</h3>
-                    <ul>
-                        <!--Facebook-->
-                        <li class="icon-hover" style="font-size: 2rem">
-                            <a href="https://pt-br.facebook.com/denispinturasemgeral.com.br/" target="_blank"><span class="fab fa-facebook"></span></a>
-                        </li>
-                        <!--Instagram-->
-                        <li class="icon-hover" style="font-size: 2rem">
-                            <a href="https://www.instagram.com/denispinturasemgeral/" target="_blank"><span class="fab fa-instagram"></span></a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
 
         <div class="px-5 py-3 py-sm-3"></div>
 
         <!--2ºCOL-->
-        <div class="col-12 col-md-4 shadow">
+        <div class="col-12 col-md-4 px-5 pb-3 shadow">
             <div class="py-4 pl-4">
                 <span class="subtitulo-interno">CONTATO COM A EMPRESA</span>
             </div>
@@ -237,19 +231,19 @@
                 <div class="form-group">
                     <label for="inputName">Nome</label>
                     <input class="form-control" type="text" id="inputName" aria-describedby="emailHelp" placeholder="Nome e sobrenome">
-       k         </div>
+               </div>
                 <div class="row">
-                    <div class="form-group col-6">
+                    <div class="form-group col-12 col-sm-6">
                         <label for="inputEmail">E-mail</label>
                         <input class="form-control" type="email" id="inputEmail" placeholder="Ex: fulano@hotmail.com">
                     </div>
-                    <div class="form-group col-6">
+                    <div class="form-group col-12 col-sm-6">
                         <label for="inputTelefone">Telefonee</label>
                         <input class="form-control" type="text" id="inputTelefone" placeholder="Ex: (11)95555-5555">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="textareaMensagem">Mensagemm</label>
+                    <label for="textareaMensagem">Mensagem</label>
                     <textarea class="form-control" id="textareaMensagem" rows="5" placeholder="Informe sua mensagem"></textarea>
                 </div>
 
@@ -257,12 +251,50 @@
             </form>
         </div>
     </div>
+</section>
 
-    <div class="copy">
-        <div class="container">
-            <p class="grid-16">Denis Pinturas 2021 - Alguns direitos reservados.</p>
+<!--FOOTER-->
+<footer class="col-12 copy d-flex flex-column flex-sm-row justify-content-center">
+    <!--FORMAS DE PAGAMENTO-->
+    <div class="col-12 col-sm-5 p-2">
+        <h3 class="subtitulo-footer" style="font-size: 20px; margin: 0">Formas de Pagamento</h3>
+        <small class="font-weight-bold text-white">Aceitamos todos os cartões de Débito e Crédito, emitimos boletos.</small>
+        <small class="text-white">Parcelamos em até 10x</small>
+
+        <div class="">
+            <ul class="icons d-flex align-items-center">
+                <li><img class="icon-card p-1" src="./img/cartoes/mastercard.svg" alt=""></li>
+                <li><img class="icon-card p-1" src="./img/cartoes/visa.svg" alt=""></li>
+                <li><img class="icon-card p-1" src="./img/cartoes/america_express.svg" alt="" style="width: 92px!important;"></li>
+                <li><img class="icon-card p-1" src="./img/cartoes/dinner_club.svg" alt=""></li>
+                <li><img class="icon-card p-1" src="./img/cartoes/boleto.svg" alt=""></li>
+                <li><img class="icon-card p-1" src="./img/cartoes/hipercard.svg" alt=""></li>
+                <li><img class="icon-card p-1" src="./img/cartoes/elo.svg" alt=""></li>
+            </ul>
         </div>
     </div>
+    <!--REDES SOCIAIS-->
+    <div class="col-12 col-sm-5 p-2">
+        <h3 class="subtitulo-footer" style="font-size: 20px;margin: 0">Redes Sociais</h3>
+        <small class="font-weight-bold text-white">Acesse e confira nossas redes sociais</small>
+        <div class="footer_redes">
+            <ul class="d-flex">
+                <!--Facebook-->
+                <a href="https://pt-br.facebook.com/denispinturasemgeral.com.br/" target="_blank">
+                    <img class="icon-social p-1" src="./img/redes-sociais/facebook.svg" alt="Facebook">
+                </a>
+                <!--Instagram-->
+                <a href="https://www.instagram.com/denispinturasemgeral/" target="_blank">
+                    <img class="icon-social p-1" src="./img/redes-sociais/instagram.svg" alt="Instagram">
+                </a>
+                <!--Whatsapp-->
+                <a href="https://wa.me/5511959062579" target="_blank">
+                    <img class="icon-social p-1" src="./img/redes-sociais/whatsapp.svg" alt="Instagram">
+                </a>
+            </ul>
+        </div>
+    </div>
+
 </footer>
 
 
